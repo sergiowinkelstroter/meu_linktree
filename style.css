@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #dcdcdc;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.imagem__div {
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.imagem {
+  width: 30%;
+  border-radius: 50%;
+  border: 2px solid #00008b;
+  padding: 0.2em;
+}
+
+.nome h3 {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+.nome a {
+  display: flex;
+  justify-content: center;
+  font-size: 0.8rem;
+  color: black;
+}
+
+.nome a:hover {
+  color: #808080;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.links a {
+  color: #fff;
+  background-color: #00008b;
+  border: none;
+  padding: 0.8rem;
+  border-radius: 1.3rem;
+  width: 12rem;
+  text-align: center;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.links a:hover {
+  background-color: #0000cd;
+  cursor: pointer;
+}
+
+.icon__link {
+  font-size: 1.2rem;
+  margin-right: 0.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    height: 100%;
+  }
+  .imagem {
+    width: 35%;
+  }
+
+  .nome h3 {
+    font-size: 1.8rem;
+  }
+
+  .nome a {
+    font-size: 1rem;
+  }
+
+  .links a {
+    width: 15rem;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .icon__link {
+    font-size: 1.4rem;
+  }
+}
